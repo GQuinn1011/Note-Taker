@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron jumbotron--home">
+            <h1 class="display-4">Note Taker: </h1>
+            <p class="lead mt-4">Take Notes with Express and MySQL</p>
+            <a class="btn btn-lg mt-4 btn-primary" href="/notes" role="button">View Notes</a>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">
+                            Make a New Note!
+                        </h5>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Title</label>
+                                <input type="text" class="form-control" id="title" placeholder="Title of Your Note Goes Here">
+                            </div>
+                            <div class="form-group">
+                                <label for="cause">Body</label>
+                                <input type="text" class="form-control" id="body" placeholder="Body of Your Note Goes Here">
+                            </div>
+                            <div class="form-group">
+                            </div>
+                            <button id="newNote-submit" type="submit" class="btn btn-primary mt-4">Submit</button>
+                            <button id="newNote-clear" type="clear" class="btn btn-danger mt-4">Clear</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+
+<script src="//cdn.jsdelivr.net/combine/npm/jquery@3.2.1,npm/axios@0.17.0/dist/axios.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/assets/js/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-json/2.6.0/jquery.json.min.js"></script>
+
+</html>
