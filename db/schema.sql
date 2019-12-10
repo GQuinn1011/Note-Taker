@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS note_db;
-CREATE DATABASE note_db;
+DROP DATABASE IF EXISTS ad5piavmbboomg5h;
+CREATE DATABASE ad5piavmbboomg5h;
 
 USE note_db;
 
