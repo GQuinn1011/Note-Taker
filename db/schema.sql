@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS ad5piavmbboomg5h;
 CREATE DATABASE ad5piavmbboomg5h;
 
-USE note_db;
+USE ad5piavmbboomg5h;
 
 -- Create the notes table
 CREATE TABLE notes
