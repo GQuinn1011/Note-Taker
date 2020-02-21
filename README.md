@@ -4,6 +4,8 @@
 
 Is a Node, Express, and MySQL powered note-taking application. You have the ability to create and delete notes from a MySQL database.
 
+Deployed link: https://agile-fjord-54086.herokuapp.com/
+
 
 ### Prerequisites
 
